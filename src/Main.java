@@ -30,7 +30,8 @@ public class Main {
         Engine engine = new Engine();
         System.out.println("Car with engine");
         CarDIConstructor carDIConstr = new CarDIConstructor(engine);
-        carDIConstr.start();
+        carDIConstr.start(); // car di started
+        System.out.println();
         System.out.println();
         System.out.println("Gas Engine created seperately");
         Engine gasEngine = new Gas();
