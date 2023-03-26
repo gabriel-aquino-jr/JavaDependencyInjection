@@ -47,7 +47,7 @@ public class Main {
             System.out.println("Trying to start a car without engine!");
             carDIField.start();
         } catch (NullPointerException ex) {
-            System.out.printf("No way, you can't start a car with no engine on it!");
+            System.out.println("No way, you can't start a car with no engine on it!");
         }
 
         System.out.println("Installing engine in the car");
